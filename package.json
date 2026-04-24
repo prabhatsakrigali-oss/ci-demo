@@ -1,16 +1,14 @@
 {
-  "name": "ci-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "build":"echo Build successful"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^30.3.0"
-  }
+	  "name": "ci-demo",
+	    "version": "1.0.0",
+	      "main": "index.js",
+	        "scripts": {
+			    "test": "jest",
+			        "build": "echo Build Successful",
+				    "start": "node index.js"
+				      },
+				        "dependencies": {},
+					  "devDependencies": {
+						      "jest": "^30.3.0"
+						        }
 }
